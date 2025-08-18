@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/3e516f940b.js" crossorigin="anonymous" ></script> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+    <title>Mon portefolio</title>
+  </head>
+
+  <body>
+    <div class="nav_container">
+      <nav class="menu">
+          <div class="logo">
+              <a href="index.html"> <img src="images/logo1.jpg" alt=""></a>
+              <h2 class="title"> RACHEDI </h2>
+              <h2 class="firstname">NACER</h2>
+          </div>
+
+          <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+
+          <div class="menu-links" >
+              <a href="index.html" class="active"><span class="nav-item">Qui suis-je</span></a>
+              <a href="competences.html"><span class="nav-item">Mes Compétence</span></a>              
+              <a href="projects.html"><span class="nav-item">Mes projets</span></a>              
+              <a href="contact.html"><span class="nav-item">Contactez-moi</span></a>
+                        
+          </div>
+      </nav>
+    </div>
+   
+    <main>
+      <section id="presentation" class="presentation">      
+
+        <div class="texte_presentation" data-aos="fade-right">
+          <h1>Développeur Web</h1>
+          <p>
+            Passionné depuis longtemps par l’univers de l’informatique, j’ai
+            naturellement décidé de me reconvertir dans le développement
+            web. <br> 
+             J’ai suivi une formation de développeur web et mobile à la
+           <a href="https://3wacademy.fr/"target="_blanc">3W Academy</a> où j’ai acquis des compétences solides en création
+            de sites modernes et réactifs......           
+          </p>
+          <div class="btn_presentation">
+            <button id="openModal" class="openModal"><h2>Lire la suite</h2></button>          
+            <button class="btn_cv"><a href="Cv/CV Rachedi.pdf" download="CV Rachedi.pdf"><h2>Télécharger mon CV</h2></a> 
+             </button>
+        </div>
+
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Suite du texte</h2>
+                    <img src="images/img-portfolio.png" alt="ma photo" />
+                    <p>
+                      Après 17 ans d'expérience dans le secteur du transport en tant que
+                      conducteur de bus, j'ai développé des compétences solides en gestion
+                      du temps, en rigueur et en relation client. Cette expérience m'a
+                      permis d'acquérir un excellent sens du contact et une organisation
+                      efficace, des qualités essentielles dans tout environnement
+                      professionnel.
+                       Aujourd’hui, je suis motivé à
+                        relever de nouveaux défis en tant que développeur web. Curieux
+                        et rigoureux, je suis toujours à la recherche d’opportunités
+                        pour apprendre et évoluer dans ce domaine en constante
+                        évolution. Mon objectif est de mettre mes compétences techniques
+                        et mon sens du relationnel au service d’une entreprise
+                        dynamique, afin de créer des projets innovants et performants.
+                    </p>
+                </div>
+            </div>
+                    <div class="social-media">
+                        <a
+                        href="https://www.facebook.com/profile.php?id=61567628759712"
+                        target="_blank"
+                        ><i class="fa-brands fa-facebook"></i
+                        ></a>
+                        <a href="https://www.linkedin.com/public-profile/settings">
+                        <i class="fa-brands fa-linkedin"></i
+                        ></a>
+                        <a href="https://github.com/Nacer-Dev77" target="_blank"
+                        ><i class="fa-brands fa-github"></i
+                        ></a>
+                        <a href="https://x.com/NacerDev77" target="_blank"
+                        ><i class="fa-brands fa-x-twitter"></i
+                        ></a>
+                    </div>
+            </div>
+
+        <div class="image_presentation" data-aos="fade-left">
+          <img src="images/img-portfolio.png" alt="ma photo" />
+        
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span class="copy">&copy; - RACHEDI NACER-EDDINE - <script> document.write(new Date().getFullYear());</script> - Tous droits réservés</span>      
+    </footer>
+    <script src="script.js"></script>   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+      });
+    </script>
+  </body>
+</html>

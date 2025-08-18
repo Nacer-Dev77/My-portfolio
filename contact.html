@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3e516f940b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Mon portefolio</title>
+  </head>
+
+  <body>
+    <div class="nav_container">
+      <nav class="menu">
+        <div class="logo">
+          <a href="index.html"> <img src="images/logo1.jpg" alt="" /></a>
+          <h2 class="title">RACHEDI</h2>
+          <h2 class="firstname">NACER</h2>
+        </div>
+
+        <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+
+        <div class="menu-links">
+          <a href="index.html"><span class="nav-item">Qui suis-je</span></a>
+          <a href="competences.html"
+            ><span class="nav-item">Mes Compétence</span></a
+          >
+          <a href="projects.html"><span class="nav-item">Mes projets</span></a>
+          <a href="contact.html" class="active"
+            ><span class="nav-item">Contactez-moi</span></a
+          >
+        </div>
+      </nav>
+    </div>
+    <!-- <main> -->
+
+ <main class="container">
+    <!-- Colonne gauche -->
+    <div class="card">
+      <h1>Me contacter</h1>
+      <p class="subtitle">
+        Disponible pour des missions freelance et des opportunités à temps plein.
+        Écrivez-moi ou connectons-nous via mes réseaux.
+      </p>
+
+      <div class="contact-item">
+        <span>Email : <strong>nacerdev77@gmail.com</strong></span>
+        <a href="mailto:nacerdev77@gmail.com">Ecrire</a>
+      </div>
+      <!-- <div class="contact-item">
+        <span>Téléphone : <strong>+33 6 00 00 00 00</strong></span>
+        <a href="tel:+33600000000">Appeler</a>
+      </div> -->
+      <div class="contact-item">
+        <span>Localisation : Seine et Marne, France</span>
+      </div>
+
+      <h1>Réseaux sociaux</h1>
+       <!-- <a class="social-link" href="https://www.facebook.com/profile.php?id=61567628759712"target="_blank"><i class="fa-brands fa-facebook"></i
+        >Facbook →</a> -->
+      <a class="social-link" href="https://github.com/Nacer-Dev77" target="_blank" ><i class="fa-brands fa-github"></i
+        >GitHub →</a>
+      <a class="social-link" href="https://www.linkedin.com/public-profile/settings"><i class="fa-brands fa-linkedin"></i
+        >LinkedIn →</a>
+      <a class="social-link" href="https://x.com/NacerDev77" target="_blank"><i class="fa-brands fa-x-twitter"></i
+        >Twitter →</a>      
+    </div>
+
+    <!-- Colonne droite -->
+    <div class="card">
+      <h1>Ecrire un message</h1>
+      <p class="subtitle">Laissez-moi quelques mots, je reviens vers vous rapidement.</p>
+      <form action="mailto:nacerdev77@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="Nom" placeholder="Votre nom" required>
+        <input type="email" name="Email" placeholder="Votre email" required>
+        <textarea name="Message" rows="6" placeholder="Écrivez votre message ici…" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+      <!-- <p style="font-size:0.75rem;color:#94a3b8;margin-top:0.5rem;">
+        (Le bouton ouvre votre client email, aucun backend requis)
+      </p> -->
+    </div>
+  </main>
+
+
+
+
+
+
+
+
+      <!-- <section class="contact" id="contact">
+        
+        <div class="bloc_mail">
+          <i class="fa-regular fa-envelope"></i><span>Me contacter :</span><br/>          
+          <a href="mailto:assojardinsdespointes@gmail.com" class="mail">nacerdev77@gmail.com</a>       
+        </div>
+        <div class="social-media_contact">
+            <h2>Me Suivre</h2>
+            <div class="social-media">
+          <a href="https://www.facebook.com/profile.php?id=61567628759712"target="_blank" >
+            <i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/public-profile/settings"></a>
+            <i class="fa-brands fa-linkedin"></i></a>   
+         
+          <a href="https://github.com/Nacer-Dev77" target="_blank"
+                        ><i class="fa-brands fa-github"></i
+                        ></a>
+          <a href="https://x.com/NacerDev77" target="_blank"></a>
+           <i class="fa-brands fa-x-twitter"></i></a> 
+           </div>       
+        </div> -->
+
+        <!-- <form action="form.html" method="post">
+            <fieldset>
+                <legend>Formulaire De Contact</legend>
+                <div class="field">
+                    <label for="firstname">Prénom</label>
+                    <input type="text" name="firstname" id="firstname">
+                    
+                </div>
+                <div class="field">
+                    <label for="lastname">Nom</label>
+                    <input type="text" name="lastname" id="lastname">
+                </div>
+                <div class="field">
+                    <label for="entreprise">Entreprise</label>
+                    <input type="text" name="entreprise" id="entreprise">
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="texte_contact">
+                    <label class="lab_area">votre textes</label>
+                    <textarea name="text" ></textarea>
+                </div>
+                <div class="btn_valid">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </fieldset> -->
+      <!-- </section> -->
+    <!-- </main> -->
+
+
+    <footer>
+      <div class="social-media_footer">
+        <a
+          href="https://www.facebook.com/profile.php?id=61567628759712"
+          target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://www.linkedin.com/public-profile/settings">
+          <i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/Nacer-Dev77" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://x.com/NacerDev77" target="_blank"
+          ><i class="fa-brands fa-x-twitter"></i
+        ></a>
+      </div>
+      <span class="copy">
+        &copy copyright - RACHEDI NACER-EDDINE -
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        - Tous droits réservés</span
+      >
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
