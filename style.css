@@ -548,80 +548,6 @@ main {
   /* *********************** CONTACT ***************************************** */
   /* *************************** ************************************************* */
 
-  /* .contact {
-    border-bottom: 1px solid #fff;
-    width: 100%;
-  }
-
-  .contact fieldset {
-    width: 95%;
-    height: 30rem;
-    margin: 3rem auto;
-    padding: 20px;
-    border: 2px solid #117da0;
-  }
-
-  .contact legend {
-    font-size: 18px;
-    color: #117da0;
-    border-bottom: 1px solid #117da0;
-  }
-
-  .contact .field {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    padding: 2px 5px;
-    margin-bottom: 10px;
-  }
-
-  .contact label {
-    font-size: 16px;
-  }
-
-  .contact input {
-    font-size: 18px;
-    width: 45%;
-    padding: 2px;
-    border-radius: 10px;
-  }
-
-  .contact .btn_valid button {
-    background-color: #117da0;
-    color: #fff;
-    padding: 6px;
-    text-align: center;
-    display: block;
-    cursor: pointer;
-    border-radius: 10px;
-    font-size: 20px;
-    margin: 20px 0 30px;
-    width: 10rem;
-  }
-  .contact .btn_valid button:hover {
-    background-color: #04b1e9;
-    color: #000;
-  }
-
-  .contact .lab_area {
-    font-size: 16px;
-  }
-
-  .texte_contact {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-
-  .contact .texte_contact textarea {
-    font-size: 16px;
-    width: 45%;
-    height: auto;
-    border-radius: 10px;
-    overflow: hidden;
-  } */
-
   .contact {
     border-bottom: 1px solid #fff;
   }
@@ -1139,12 +1065,8 @@ main {
     text-align: center;
     box-sizing: border-box;
     box-shadow: 5px 5px #117da0;
-  }
-  /* .bloc_projet:hover {
-  transform: scale(1.1);
-  transition: all 0.3s ease;
-} */
-
+    }
+ 
   .projects .bloc_projet h3 {
     font-size: 25px;
     font-weight: 600;
@@ -1192,78 +1114,7 @@ main {
   /* *********************** CONTACT ***************************************** */
   /* *************************** ************************************************* */
 
-  /* .contact {
-    border-bottom: 1px solid #fff;
-  }
 
-  .contact fieldset {
-    width: 40%;
-    height: 30rem;
-    margin: 3rem 0 6rem 25rem;
-    padding: 2em;
-    font-size: 1.6rem;
-    border: 2px solid #117da0;
-  }
-
-  .contact legend {
-    font-size: 25px;
-    color: #117da0;
-    border-bottom: 1px solid #117da0;
-  }
-
-  .contact .field {
-    display: flex;
-    justify-content: space-between;
-    padding: 2px 5px;
-    margin-bottom: 15px;
-  }
-
-  .contact label {
-    font-size: 16px;
-  }
-
-  .contact input {
-    font-size: 18px;
-    width: 50%;
-    padding: 3px;
-    border-radius: 10px;
-  }
-
-  .contact .btn_valid button {
-    background-color: #117da0;
-    color: #fff;
-    padding: 6px;
-    text-align: center;
-    display: block;
-    cursor: pointer;
-    border-radius: 10px;
-    font-size: 20px;
-    margin: 2rem 0 0 5rem;
-    width: 18rem;
-  }
-  .contact .btn_valid button:hover {
-    background-color: #04b1e9;
-    color: #000;
-  }
-
-  .contact .lab_area {
-    font-size: 18px;
-    margin-right: -20px;
-  }
-
-  .texte_contact {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  .contact .texte_contact textarea {
-    font-size: 18px;
-    width: 50%;
-    height: auto;
-    border-radius: 10px;
-    margin-left: 11rem;
-  } */
   .contact {
     border-bottom: 1px solid #fff;
   }
@@ -1455,9 +1306,4 @@ button:hover {
     color: #0c0c0c;
 }
 
-/* footer {
-  text-align: center;
-  padding: 2rem 1rem;
-  font-size: 0.85rem;
-  color: #94a3b8;
-} */
+
